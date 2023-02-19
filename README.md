@@ -2,3 +2,10 @@
 This repo is going to keep my Debian autoconfig scripts.
 
 I use a Thinkpad T480 as my daily driver with Debian Testing KDE, so most of the scripts are focused on it.
+
+## Enable sudo command
+```bash
+su -
+usermod -aG sudo <user>
+su kevin
+```
